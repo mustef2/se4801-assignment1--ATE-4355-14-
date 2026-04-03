@@ -1,29 +1,24 @@
-<<<<<<< HEAD
-# se4801-assignment1--ATE-4355-14-
-=======
-# ShopWave Backend Application
 
-## 📌 Introduction
+# se4801-assignment1--ATE-4355-14
 
-ShopWave is a simple backend application built using Spring Boot.
-It simulates a basic e-commerce system where users can manage products and place orders.
 
-This project was developed as part of an assignment to demonstrate understanding of backend development concepts such as REST APIs, database interaction, and layered architecture.
+Mustefa Meka
+ATE/4355/14
 
----
 
-## 🚀 What This Project Does
+
+##  What This Project Does
 
 The system allows you to:
 
-### 🛒 Manage Products
+###  Manage Products
 
 * Add new products
 * View all products
 * Get a product by ID
 * Delete a product
 
-### 📦 Manage Orders
+###  Manage Orders
 
 * Create an order with multiple products
 * Automatically calculate the total price
@@ -32,9 +27,9 @@ The system allows you to:
 * Get a specific order by ID
 * Update order status (e.g., CONFIRMED, SHIPPED)
 
----
 
-## 🏗️ How It Is Built
+
+##  How It Is Built
 
 The project follows a clean structure:
 
@@ -46,7 +41,7 @@ The project follows a clean structure:
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 * Java
 * Spring Boot
@@ -56,7 +51,7 @@ The project follows a clean structure:
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 1. Open the project in IntelliJ IDEA
 2. Make sure Maven dependencies are installed
@@ -65,9 +60,9 @@ The project follows a clean structure:
 4. The application will start on:
    `http://localhost:8080`
 
----
 
-## 🧪 Testing the API
+
+##  Testing the API
 
 You can use Postman to test the endpoints.
 
@@ -81,7 +76,7 @@ You can use Postman to test the endpoints.
 
 ---
 
-## 📌 Example Endpoints
+##  Example Endpoints
 
 ### Products
 
@@ -99,22 +94,19 @@ You can use Postman to test the endpoints.
 
 ---
 
-## ⚠️ Notes
+## ⚠ Notes
 
 * The system uses DTOs to avoid infinite JSON loops.
 * Prices are handled using `BigDecimal` for accuracy.
 * Basic exception handling is implemented for cleaner error responses.
 
----
-
-## 👨‍💻 Final Thoughts
+Final Thoughts
 
 This project helped me understand how a real backend system works, including how data flows between different layers and how APIs are designed.
 
 ---
 
-## ✍️ Author
 
-Mustefa Meka
-ATE/4355/14
+
+
 >>>>>>> 14a5723 (every thing is tested and working without any error and bug)
